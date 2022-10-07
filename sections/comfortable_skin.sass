@@ -1,0 +1,36 @@
+@import "../sass_tools/_variables"
+
+.comfort
+     background-color: $main_grey-bg
+     text-align: center
+     padding: 50px 150px
+     margin-top: -48px
+     &__title
+         font-size: 42px
+     &__text
+        font-size: 18px
+
+@media screen and (min-width: 768px) and (max-width: 992px)
+    .comfort
+        padding: 30px 120px
+        &__title
+            font-size: 32px
+
+@media screen and (min-width: 576px) and (max-width: 767px)
+    .comfort
+        padding: 30px 120px
+        &__title
+            font-size: 30px
+        &__text
+            font-size: 17px
+
+
+@media screen and (min-width: 320px) and (max-width: 575px)
+    .comfort
+        padding: 20px 50px
+        &__title
+            font-size: 27px
+        &__text
+            font-size: 15px
+            
+
